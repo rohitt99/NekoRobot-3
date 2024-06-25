@@ -14,30 +14,30 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "123458494"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 25830228  # integer value, dont use ""
+    API_HASH = "a23a5133bddbdab87df3df06ccf63a89"
+    TOKEN = "6938324585:AAESsDWsNja6lf89EKd25CkMtoJR9D-VQpU"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = "12345abc6"
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Prince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    OWNER_ID = 6722550550  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "ROHIT_LEGEND"
+    SUPPORT_CHAT = "IMPERILMENT_SUPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1001977784654
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1001977784654
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
-    DB_URL = ""
+    SQLALCHEMY_DATABASE_URI = "postgresql://xrlkskby:gobwyeqocauwmdrggqom@alpha.mkdb.sh:5432/rjfvbvce"  # needed for any database modules
+    DB_URL = "postgresql://xrlkskby:gobwyeqocauwmdrggqom@alpha.mkdb.sh:5432/rjfvbvce"
     REDIS_URL = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = "P5_FWlwgUrpchwJceZDUSDxa41G396dn7J0vSEMWeBhHJ6C4q8VJLzjhfZPxNKUZ"  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "KeCfL7BeBo5vTZIHPDWh7_KDOUdd37d5_MfH2Y5FYMBi0DJA4Vn88whSHUnxN57U"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
@@ -63,11 +63,11 @@ class Config(object):
     CASH_API_KEY = (
         "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "AYJ7PU3K31JB"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
-    AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    AI_API_KEY = "7e4e59208e9a448bb62bc67eed1aa064"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
